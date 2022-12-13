@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_5yQIXRqgCva" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Business Law</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Business_Law_ORG">
+    <organization identifier="Business_Law_ORG">
+      <title>Business Law</title>
+      <item identifier="Business_Law_SCO" isvisible="true" identifierref="__5yQIXRqgCva_RES">
+        <title>Business Law</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__5yQIXRqgCva_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/6PUMf7L0F4a.png" />
+      <file href="story_content/6SReApymrl5_44100_56_0.mp3" />
+      <file href="story_content/6K1A9XuU4AO_captions.js" />
+      <file href="mobile/60HnDOebDqC.png" />
+      <file href="story_content/6PntcC3WGXk_44100_56_0.mp3" />
+      <file href="story_content/6ifX5l1ewDx_captions.js" />
+      <file href="mobile/6FCFDDmxIhR.png" />
+      <file href="story_content/6TQYdhBti6L_44100_56_0.mp3" />
+      <file href="story_content/6LOVFWkKkhD_captions.js" />
+      <file href="mobile/5ZmXc7Z4TD2.png" />
+      <file href="mobile/6ZcGOlsUg1t.png" />
+      <file href="mobile/6qhtcS6S8ib_M_3020_3020.png" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="mobile/Shape6mb106B1rXJ.png" />
+      <file href="mobile/Shape6PklQLZtzOp.png" />
+      <file href="mobile/Shape68DzzV0kfkc.png" />
+      <file href="mobile/Shape5xxwYMNppxU.png" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5e8PrssC6Tk.js" />
+      <file href="html5/data/js/5v7bg3VQcqy.js" />
+      <file href="html5/data/js/6BeXmuTQMVh.js" />
+      <file href="html5/data/js/6jTKR48TCFW.js" />
+      <file href="html5/data/js/6nTnqzb7fS2.js" />
+      <file href="html5/data/js/6TTBB9Y8aco.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
