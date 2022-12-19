@@ -75,6 +75,7 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -102,6 +103,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -125,6 +127,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -148,6 +151,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -171,6 +175,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -194,6 +199,7 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -233,7 +239,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -403,7 +409,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -431,7 +437,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -755,7 +761,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -988,7 +994,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1011,7 +1017,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1188,7 +1194,7 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1202,28 +1208,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1269,7 +1275,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1304,7 +1310,7 @@
           <color name="toggle_track_off">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xDADADA" alpha="100" stop="0" />
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1318,7 +1324,7 @@
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1329,7 +1335,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1378,7 +1384,7 @@
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xEBEBEB" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1424,6 +1430,8 @@
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="modern_video_settings_close">close video settings</string>
@@ -1451,6 +1459,9 @@
       <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1476,6 +1487,7 @@
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
@@ -1544,14 +1556,25 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6XShOIz1vl5" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6XShOIz1vl5" displaytext="Business Law" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6XShOIz1vl5.6jTKR48TCFW" displaytext="Home" expand="false" type="slide" />
-            <slidelink slideid="_player.6XShOIz1vl5.6TTBB9Y8aco" displaytext="1.1" expand="false" type="slide" />
-            <slidelink slideid="_player.6XShOIz1vl5.6BeXmuTQMVh" displaytext="1.2" expand="false" type="slide" />
-            <slidelink slideid="_player.6XShOIz1vl5.5v7bg3VQcqy" displaytext="Topic 1.1" expand="false" type="slide" />
-            <slidelink slideid="_player.6XShOIz1vl5.6nTnqzb7fS2" displaytext="Topic 1.2" expand="false" type="slide" />
-            <slidelink slideid="_player.6XShOIz1vl5.5e8PrssC6Tk" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6BgZ3JxNnn3" displaytext="S04" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6TTBB9Y8aco" displaytext="S05" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6BeXmuTQMVh" displaytext="S06" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6Gj9VxniaqR" displaytext="S07" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6WFsGlSVt2O" displaytext="S08" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6Owcy8EK0Os" displaytext="S09" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6AM4b6NtyJv" displaytext="S10" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6IF51xZBP1S" displaytext="S11" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.5oaLxg719IQ" displaytext="S12" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.5iBOJxOes8j" displaytext="S13" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6NX71HI2kTA" displaytext="S14" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.5xmHfRYxELe" displaytext="S15" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.5yXgg24u3OO" displaytext="S16" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.5kuYdmgAHmg" displaytext="S17" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6SiTrDlyFo1" displaytext="S18" expand="false" type="slide" />
+            <slidelink slideid="_player.6XShOIz1vl5.6Wlig0ZnmcE" displaytext="S19" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
